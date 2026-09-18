@@ -68,7 +68,7 @@ export default function Education() {
                 <div className="relative">
                   <div className="flex items-start gap-4 mb-6">
                     <div className="p-3 bg-gradient-to-br from-primary to-secondary rounded-xl">
-                      <FiGraduationCap className="text-white" size={24} />
+                      <FaGraduationCap className="text-white" size={24} />
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold text-white mb-2">{edu.degree}</h3>
