@@ -2,7 +2,8 @@
 
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FiGraduationCap, FiCalendar, FiMapPin } from 'react-icons/fi'
+import { FiCalendar, FiMapPin } from 'react-icons/fi'
+import { FaGraduationCap } from 'react-icons/fa'
 
 export default function Education() {
   const [ref, inView] = useInView({
